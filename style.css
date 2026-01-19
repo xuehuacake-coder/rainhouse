@@ -2,17 +2,19 @@ body {
   margin: 0;
   padding: 0;
   font-family: "STKaiti", "KaiTi", serif;
-  background-color: #2e2e2e; /* 替代图片背景，防止错误图 */
+  background: url('https://images.unsplash.com/photo-1609941326294-bc6b50803085?auto=format&fit=crop&w=1400&q=80') no-repeat center center fixed;
+  background-size: cover;
   color: #f5f5f5;
 }
 
 .glass-container {
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.45);
   margin: 10% auto;
   padding: 2rem;
   max-width: 600px;
   border-radius: 20px;
   text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
 }
 
 h1 {
@@ -23,9 +25,11 @@ h1 {
 .tagline {
   font-size: 1.2rem;
   margin-bottom: 2rem;
+  line-height: 1.6;
 }
 
 .footer {
   font-size: 1rem;
   margin-top: 2rem;
+  color: #dddddd;
 }
