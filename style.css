@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "STKaiti", "KaiTi", serif;
-  background: url('https://images.unsplash.com/photo-1609941326294-bc6b50803085?auto=format&fit=crop&w=1400&q=80') no-repeat center center fixed;
+  background: url("https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=1400&q=80") no-repeat center center fixed;
   background-size: cover;
   color: #f5f5f5;
 }
