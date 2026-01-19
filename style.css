@@ -1,34 +1,30 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "STKaiti", "KaiTi", serif;
-  background: url('assets/glasshouse.jpg') no-repeat center center fixed;
+  background: linear-gradient(rgba(255,255,255,0.15), rgba(255,255,255,0.15)), url("https://i.imgur.com/xyCwhCr.jpeg") no-repeat center center fixed;
   background-size: cover;
-  color: #fdf6e3;
-}
-
-.glass-container {
-  background: rgba(255, 255, 255, 0.15);
-  backdrop-filter: blur(12px);
-  margin: 10% auto;
-  padding: 2rem;
-  max-width: 600px;
-  border-radius: 20px;
-  text-align: center;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  font-family: "Georgia", serif;
+  color: #2e2e2e;
 }
 
 h1 {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
+  font-size: 3em;
+  text-align: center;
+  margin-top: 2em;
+  color: #333;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 0.5em 1em;
+  border-radius: 12px;
+  display: inline-block;
 }
 
-.tagline {
-  font-size: 1.2rem;
-  margin-bottom: 2rem;
-}
-
-.footer {
-  font-size: 1rem;
-  opacity: 0.8;
+p {
+  font-size: 1.3em;
+  text-align: center;
+  margin: 2em auto;
+  width: 80%;
+  line-height: 1.6em;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 1em;
+  border-radius: 10px;
 }
